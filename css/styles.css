@@ -1,6 +1,6 @@
 /* Body */
 body{
-    font-family: "Roboto";
+    font-family: "Roboto",sans-serif;
     color: #434455;
     background-color: #FFFFFF;
 }
@@ -31,6 +31,16 @@ body{
         line-height: 24px;
         letter-spacing: 0.02em;
         text-align: left;
+        color: #2e2f42;
+}
+.menu-item:hover{
+    color: #404bbf;
+}
+.menu-item:focus {
+    color: #404bbf;
+}
+.adress{
+    font-style: normal
 }
 .adress-item{
     font-family: Roboto;
@@ -39,6 +49,13 @@ body{
     line-height: 24px;
     letter-spacing: 0.02em;
     text-align: left;
+    color: #434455;
+}
+.adress-item:hover{
+color: #404bbf;
+}
+.adress-item:focus{
+    color: #404bbf;
 }
 /* main */
 h1{
