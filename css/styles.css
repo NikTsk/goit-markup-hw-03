@@ -1,0 +1,91 @@
+/* Header */
+.logo{
+    font-family: Raleway;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 21px;
+        letter-spacing: 0.03em;
+        text-align: left;
+}
+.menu-item{
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        text-align: left;
+}
+.adress-item{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+/* main */
+h1{
+    font-family: Roboto;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+h2{
+            font-family: Roboto;
+            font-size: 36px;
+            font-weight: 700;
+            line-height: 40px;
+            letter-spacing: 0.02em;
+            text-align: center;
+}
+h3{
+        font-family: Roboto;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        text-align: left;
+}
+.button{
+    width: Hug (169px);
+    height: Hug (56px);
+    top: 428px ;
+    left: 636px ;
+    padding: 16px, 32px, 16px, 32px ;
+    border-radius: 4px ;
+    gap: 10px;
+    background: #4D5AE5;
+}
+p{
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        text-align: left;
+}
+.team-img{
+width: 264px; 
+height: 260px;
+}
+.port-img{
+width: 360px; 
+height: 300px;
+}
+/* footer */
+.footer-logo{
+    width: Hug (115px);
+    height: Fixed (24px);
+    top: 3088px;
+    left: 156px;
+}
+.footer-text{
+    font-family: Roboto;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        text-align: left;
+}
