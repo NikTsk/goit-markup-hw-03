@@ -62,17 +62,31 @@ h1{
     font-family: Roboto;
     font-size: 56px;
     font-weight: 700;
-    line-height: 60px;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
+    background-color: #2e2f42;
+    color: #ffffff;
 }
 h2{
             font-family: Roboto;
             font-size: 36px;
             font-weight: 700;
-            line-height: 40px;
+            line-height: 1.11;
             letter-spacing: 0.02em;
             text-align: center;
+            text-transform: capitalize;
+            color: #2e2f42;  
+}
+.port-main-text{
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    color: #2e2f42;
 }
 h3{
         font-family: Roboto;
@@ -81,12 +95,42 @@ h3{
         line-height: 24px;
         letter-spacing: 0.02em;
         text-align: left;
+        color: #2e2f42;
+}
+.port-list-main-text{
+    font-family: Roboto;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        text-align: left;
+        color: #2e2f42;
 }
 .button{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
     background: #4D5AE5;
+    cursor: pointer;
 }
-p{
-        font-family: Roboto;
+.button:hover{
+    background-color: #404BBF;
+}
+.team-list-item{
+    background-color: #FFFFFF;
+}
+.team-text{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+.port-list-text{
+    font-family: Roboto;
         font-size: 16px;
         font-weight: 400;
         line-height: 24px;
@@ -94,6 +138,15 @@ p{
         text-align: left;
 }
 /* footer */
+.footer{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
 .footer-text{
     font-family: Roboto;
         font-size: 16px;
@@ -101,4 +154,5 @@ p{
         line-height: 24px;
         letter-spacing: 0.02em;
         text-align: left;
+        color: #F4F4FD;
 }
