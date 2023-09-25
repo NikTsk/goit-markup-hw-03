@@ -58,7 +58,7 @@ color: #404bbf;
     color: #404bbf;
 }
 /* main */
-hero-section{
+.hero-section{
     background-color: #2e2f42;
 }
 h1{
@@ -119,6 +119,24 @@ h3{
         letter-spacing: 0.02em;
         text-align: left;
         color: #2e2f42;
+}
+.about-list-main-text{
+    font-family: Roboto;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        text-align: left;
+        color: #2e2f42;
+}
+.team-list-main-text{
+font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #2e2f42;
 }
 .port-list-main-text{
     font-family: Roboto;
@@ -186,10 +204,10 @@ h3{
     background-color: #2e2f42;
 }
 .footer-logo{
-    font-family: Raleway;
+    font-family: "Raleway",sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 21px;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-align: left;
     color: #4d5ae5;
