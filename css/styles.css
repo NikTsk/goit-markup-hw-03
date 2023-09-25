@@ -24,7 +24,7 @@ body{
     text-align: left;
     color: #2e2f42;
 }
-.menu-item{
+.nav-link{
         font-family: Roboto;
         font-size: 16px;
         font-weight: 500;
@@ -33,16 +33,16 @@ body{
         text-align: left;
         color: #2e2f42;
 }
-.menu-item:hover{
+.nav-link:hover{
     color: #404bbf;
 }
-.menu-item:focus {
+.nav-link:focus {
     color: #404bbf;
 }
 .adress{
     font-style: normal
 }
-.adress-item{
+.adress-link{
     font-family: Roboto;
     font-size: 16px;
     font-weight: 400;
@@ -51,14 +51,27 @@ body{
     text-align: left;
     color: #434455;
 }
-.adress-item:hover{
+.adress-link:hover{
 color: #404bbf;
 }
-.adress-item:focus{
+.adress-link:focus{
     color: #404bbf;
 }
 /* main */
+hero-section{
+    background-color: #2e2f42;
+}
 h1{
+    font-family: Roboto;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    background-color: #2e2f42;
+    color: #ffffff;
+}
+.hero-main-text{
     font-family: Roboto;
     font-size: 56px;
     font-weight: 700;
@@ -77,6 +90,16 @@ h2{
             text-align: center;
             text-transform: capitalize;
             color: #2e2f42;  
+}
+.team-main-text{
+    font-family: Roboto;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-align: center;
+        text-transform: capitalize;
+        color: #2e2f42;
 }
 .port-main-text{
     font-family: Roboto;
@@ -118,6 +141,12 @@ h3{
 .button:hover{
     background-color: #404BBF;
 }
+.button:focus{
+    background-color: #404BBF;
+}
+.team{
+    background-color: #F4F4FD;
+}
 .team-list-item{
     background-color: #FFFFFF;
 }
@@ -137,6 +166,14 @@ h3{
         letter-spacing: 0.02em;
         text-align: left;
 }
+.about-text{
+    font-family: Roboto;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        text-align: left;
+}
 /* footer */
 .footer{
     font-family: "Raleway", sans-serif;
@@ -146,6 +183,19 @@ h3{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    background-color: #2e2f42;
+}
+.footer-logo{
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #4d5ae5;
+}
+.half-footer-logo{
+    color: #f4f4fd;
 }
 .footer-text{
     font-family: Roboto;
