@@ -44,7 +44,7 @@ body{
     text-align: left;
     color: #2e2f42;
 }
-.menu list{
+.menu-list{
     display: flex;
     gap: 40px;
 }
